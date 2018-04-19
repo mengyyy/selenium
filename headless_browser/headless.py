@@ -5,6 +5,7 @@ import os
 # instantiate a chrome options object so you can set the size and headless preference
 chrome_options = Options()
 chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--window-size=1920x1080")
 
 # download the chrome driver from https://sites.google.com/a/chromium.org/chromedriver/downloads and put it in the
